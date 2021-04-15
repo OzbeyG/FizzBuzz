@@ -1,0 +1,248 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User is on Welcome page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3464034500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on \"Welcome to FizzBuzz!\" page.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome to FizzBuzz!\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.demo.step_definitions.Fizz_buzz_step_definitions.user_is_on_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-15T14:29:35.942Z",
+        "line": 9,
+        "name": "Print Fizz",
+        "description": "",
+        "id": "welcome-to-fizzbuzz;print-fizz",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 687189900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters a number divisible by 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 34
+                }
+              ],
+              "location": "com.demo.step_definitions.Fizz_buzz_step_definitions.user_enters_a_number_divisible_by(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 711611900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should able to see Fizz",
+            "match": {
+              "location": "com.demo.step_definitions.Fizz_buzz_step_definitions.user_should_able_to_see_fizz()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@new_feature"
+          },
+          {
+            "name": "@first"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is on Welcome page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 663448200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on \"Welcome to FizzBuzz!\" page.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome to FizzBuzz!\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.demo.step_definitions.Fizz_buzz_step_definitions.user_is_on_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-15T14:29:40.863Z",
+        "line": 13,
+        "name": "Print Buzz",
+        "description": "",
+        "id": "welcome-to-fizzbuzz;print-buzz",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 356121500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters another number divisible by 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 40
+                }
+              ],
+              "location": "com.demo.step_definitions.Fizz_buzz_step_definitions.user_enters_another_number_divisible_by(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 669715900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should able to see Buzz",
+            "match": {
+              "location": "com.demo.step_definitions.Fizz_buzz_step_definitions.user_should_able_to_see_buzz()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@new_feature"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is on Welcome page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 464078400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on \"Welcome to FizzBuzz!\" page.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome to FizzBuzz!\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.demo.step_definitions.Fizz_buzz_step_definitions.user_is_on_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-15T14:29:42.561Z",
+        "line": 17,
+        "name": "Print FizzBuzz",
+        "description": "",
+        "id": "welcome-to-fizzbuzz;print-fizzbuzz",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1468762800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters a number divisible by 3 and 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 34
+                },
+                {
+                  "val": "5",
+                  "offset": 40
+                }
+              ],
+              "location": "com.demo.step_definitions.Fizz_buzz_step_definitions.user_enters_a_number_divisible_by_and(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 665288900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should able to see FizzBuzz",
+            "match": {
+              "location": "com.demo.step_definitions.Fizz_buzz_step_definitions.user_should_able_to_see_fizz_buzz()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@new_feature"
+          }
+        ]
+      }
+    ],
+    "name": "Welcome to FizzBuzz",
+    "description": "",
+    "id": "welcome-to-fizzbuzz",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/fizz_buzz.feature",
+    "tags": [
+      {
+        "name": "@new_feature",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
